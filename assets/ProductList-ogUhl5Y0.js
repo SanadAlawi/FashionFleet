@@ -1,0 +1,1 @@
+import{j as r,e as t,f as d}from"./index-AGjp-4Ey.js";import{p as o}from"./utils-D0frIVMv.js";const i=()=>{console.log("Grid renderd!!!!");const e=o.map(s=>r.jsx(t,{...s},s.product_id));return r.jsx("div",{className:d.grid,children:e})},a=()=>r.jsx("section",{children:r.jsx(i,{})});export{a as default};
