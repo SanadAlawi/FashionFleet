@@ -1,0 +1,64 @@
+.cart-item {
+    border-bottom: 1px solid var(--grey-color);
+    height: 20vh;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1em;
+}
+
+.left {
+    display: flex;
+    gap: 1em;
+}
+
+.image {
+    width: 100px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.name,
+.price s {
+    color: var(--grey-color);
+}
+
+.name {
+    font-size: 1.2rem;
+}
+
+
+.right {
+    /* background-color: red; */
+    display: flex;
+    gap: 1em;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--grey-color);
+    gap: 1em;
+    padding: 5px 10px;
+    align-self: flex-start;
+}
+
+.counter .minus,
+.counter .plus{
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+.remove-btn{
+    cursor: pointer;
+}
+.remove-btn:hover{
+    color: red;
+}
+

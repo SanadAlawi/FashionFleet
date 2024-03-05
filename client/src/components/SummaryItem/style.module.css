@@ -1,0 +1,24 @@
+.summary_item,
+.left{
+    display: flex;
+    gap: 1em;
+}
+.summary_item{
+    justify-content: space-between;
+}
+
+.image{
+    width: 50px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.right s{
+    color: var(--grey-color);
+}

@@ -1,0 +1,38 @@
+header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    align-items: center;
+    height: var(--nav-height);
+    padding: 0 var(--center-padding);
+    box-shadow: 0 0 2px var(--black-color);
+    z-index: var(--nav-z-index);
+    background-color: var(--white-color);
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    gap: 2em;
+}
+
+.logo {
+    text-decoration: none;
+    color: var(--black-color);
+    font-size: 1.5rem;
+    margin-right: 2em;
+}
+
+.menu {
+    position: relative;
+    width: 20px;
+    height: 10px;
+    background-color: var(--black-color);
+    cursor: pointer;
+    transition: 0.5s;
+}
+

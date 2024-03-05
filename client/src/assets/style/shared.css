@@ -1,0 +1,42 @@
+.blue-btn, 
+.black-btn,
+.brown-btn{
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+.blue-btn{
+    color: var(--blue-color);
+    border-radius: 20px;
+    border: 2px solid var(--blue-color);
+    background-color: var(--white-color);
+}
+.blue-btn:hover{
+    background-color: var(--blue-color);
+    color: var(--white-color);
+}
+
+
+.black-btn{
+    color: var(--white-color);
+    background-color: var(--black-color);
+}
+.black-btn:hover{
+    opacity: 0.8;
+}
+
+
+.brown-btn{
+    color: var(--potters-clay-color);
+    background-color: var(--white-color);
+    border: 1px solid var(--potters-clay-color);
+}
+
+.brown-btn:hover{
+    color: var(--white-color);
+    background-color: var(--potters-clay-color);
+}

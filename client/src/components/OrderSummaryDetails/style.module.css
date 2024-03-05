@@ -1,0 +1,40 @@
+.order-summary{
+    background-color: var(--light-grey-color);
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    height: fit-content;
+    flex: 1;
+    position: sticky;
+    top: calc(var(--nav-height) + 3em);
+}
+
+.title,
+.list,
+.summary{
+    border-bottom: 1px solid var(--grey-color);
+    padding-bottom: 1em;
+}
+
+.summary{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.subtotal,
+.delivery,
+.total{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-height: 200px;
+    overflow-y: auto;
+}

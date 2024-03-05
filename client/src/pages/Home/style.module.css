@@ -1,0 +1,56 @@
+.home{
+    padding: 3em var(--center-padding);
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.box{
+    position: relative;
+    flex: 1;
+    height: 70vh;
+}
+
+.label{
+    position: absolute;
+    z-index: 2;
+    color: var(--black-color);
+    /* right: 0; */
+    top: 100px;
+    font-size: 2rem;
+    transform: rotate(90deg);
+}
+
+.box:nth-child(1) .label{
+    right: 0;
+}
+.box:nth-child(2) .label{
+    left: 0;
+    top: 80%;
+}
+
+.label::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -0.5em;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--black-color);
+}
+
+
+.image{
+    height: 70vh;
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.delivery-details{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    flex: 1.5;
+    /* background-color: red; */
+}
+
+.title{
+    font-size: 1.2rem;
+}

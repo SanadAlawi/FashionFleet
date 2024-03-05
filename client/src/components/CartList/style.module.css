@@ -1,0 +1,22 @@
+.cart-list,
+.grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    flex: 2;
+}
+
+.title {
+    padding-bottom: 1em;
+    border-bottom: 1px solid var(--light-grey-color);
+}
+
+.clear{
+    cursor: pointer;
+    align-self: flex-end;
+    border-bottom: 1px solid var(--blue-color);
+}
+
+.clear:hover{
+    color: var(--blue-color);
+}

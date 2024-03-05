@@ -1,0 +1,27 @@
+.order-summary{
+    flex: 1;
+}
+
+.title{
+    padding-bottom: 1em;
+    border-bottom: 1px solid var(--light-grey-color);
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 0.5em 0;
+}
+
+.subtotal, 
+.delivery,
+.total{
+    display: flex;
+    justify-content: space-between;
+}
+
+.size {
+    padding: 5px 10px;
+    font-size: 1.2rem;
+}
