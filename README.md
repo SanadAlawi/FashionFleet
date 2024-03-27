@@ -25,10 +25,11 @@ FashionFleet is an e-commerce application built with React.js that allows users 
 1. Clone the repository: git clone https://github.com/SanadAlawi/FashionFleet.git
 2. Navigate to the project directory: cd FashionFleet
 3. Install dependencies:
-npm install
-npm install react-router-dom
-npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
-
+    ```
+    npm install
+    npm install react-router-dom
+    npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
+    ```
 5. Open your browser and visit `http://localhost:3000` to view the application.
 
 ## Contributing
