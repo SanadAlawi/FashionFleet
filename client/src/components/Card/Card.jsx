@@ -1,8 +1,8 @@
-import React, { useMemo, useState } from 'react'
-import style from './style.module.css'
-import { currency } from '../../static/Variables'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useCartContext } from '../../context/CartProvider/CartProvider'
+import { currency } from '../../static/Variables'
+import style from './style.module.css'
 
 const CardMemo = React.memo(({ product, addProduct }) => {
   console.log('CardMemo rendered!!!')
@@ -32,8 +32,8 @@ const CardMemo = React.memo(({ product, addProduct }) => {
   return (
     <article className={style['card']}>
       <span className={style['message']} style={{color: color}}>{message}</span>
-      <Link to={`/product/${product_id}`}>
-        <img loading='lazy' src={product_image} alt={product_name} className={style['image']} />
+      <Link to={`/product/${product_id}`} className={style['image']}>
+        <img loading='lazy' src={product_image} alt={product_name} />
       </Link>
 
       <aside className={style['info']}>

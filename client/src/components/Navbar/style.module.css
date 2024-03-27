@@ -14,7 +14,6 @@ header {
 
 .list {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     position: relative;
     gap: 2em;
@@ -26,13 +25,3 @@ header {
     font-size: 1.5rem;
     margin-right: 2em;
 }
-
-.menu {
-    position: relative;
-    width: 20px;
-    height: 10px;
-    background-color: var(--black-color);
-    cursor: pointer;
-    transition: 0.5s;
-}
-

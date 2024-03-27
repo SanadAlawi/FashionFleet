@@ -1,7 +1,6 @@
 .nav-list{
     position: relative;
     cursor: pointer;
-    flex: 1;
     height: var(--nav-height);
     display: flex;
     align-items: center;
@@ -26,7 +25,6 @@
     gap: 5em;
     display: none;
     box-shadow: 0 0 1px var(--black-color);
-    /* background-color: red; */
 }
 
 .li{

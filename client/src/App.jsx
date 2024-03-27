@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react';
+import { Suspense } from 'react';
 import './assets/style/default.css';
 import './assets/style/colors.css';
 import './assets/style/shared.css';
